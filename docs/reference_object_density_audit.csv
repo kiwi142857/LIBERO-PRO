@@ -1,0 +1,73 @@
+category,asset_xml,source_category,baseline_mass_g,nominal_target_mass_g,effective_density_kg_m3,reference_mass_g,status,scenario_assumption
+akita_black_bowl,libero/libero/assets/stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml,akita_black_bowl,5.591,120,2146,119.989,compiled_collision_model,11 cm empty ceramic bowl
+alphabet_soup,libero/libero/assets/stable_hope_objects/alphabet_soup/alphabet_soup.xml,alphabet_soup,25.851,200,774,200.090,compiled_collision_model,small filled soup can
+basket,libero/libero/assets/stable_scanned_objects/basket/basket.xml,basket,136.107,250,184,250.437,compiled_collision_model,small empty basket
+bbq_sauce,libero/libero/assets/stable_hope_objects/bbq_sauce/bbq_sauce.xml,bbq_sauce,12.180,100,821,100.000,compiled_collision_model,small filled sauce bottle
+bigger_akita_black_bowl,libero/libero/assets/stable_scanned_objects/bigger_akita_black_bowl/bigger_akita_black_bowl.xml,akita_black_bowl,18.851,405,2146,404.537,compiled_collision_model,appearance/scale variant of akita_black_bowl
+bigger_alphabet_soup,libero/libero/assets/stable_hope_objects/bigger_alphabet_soup/bigger_alphabet_soup.xml,alphabet_soup,87.294,676,774,675.652,compiled_collision_model,appearance/scale variant of alphabet_soup
+bigger_milk,libero/libero/assets/stable_hope_objects/bigger_milk/bigger_milk.xml,milk,95.010,1050,1105,1049.860,compiled_collision_model,appearance/scale variant of milk
+black_book,libero/libero/assets/turbosquid_objects/black_book/black_book.xml,black_book,42.547,200,470,199.971,compiled_collision_model,small hardback book
+black_bowl,libero/libero/assets/stable_scanned_objects/black_bowl/black_bowl.xml,akita_black_bowl,5.591,120,2146,119.989,compiled_collision_model,appearance/scale variant of akita_black_bowl
+blue_ketchup,libero/libero/assets/stable_hope_objects/blue_ketchup/blue_ketchup.xml,ketchup,23.217,150,646,149.981,compiled_collision_model,appearance/scale variant of ketchup
+blue_red_sticker,notebooks/custom_assets/blue_red_sticker/blue_red_sticker.xml,,,,1000,,asset_xml_missing,asset XML absent; provisional density only
+bowl_drainer,libero/libero/assets/turbosquid_objects/bowl_drainer/bowl_drainer.xml,bowl_drainer,175.194,400,228,399.443,compiled_collision_model,small metal dish drainer
+brown_rack,libero/libero/assets/turbosquid_objects/brown_rack/brown_rack.xml,wine_rack,152.748,700,458,699.586,compiled_collision_model,appearance/scale variant of wine_rack
+butter,libero/libero/assets/stable_hope_objects/butter/butter.xml,butter,5.247,50,953,50.006,compiled_collision_model,small butter pack
+chefmate8_frypan,libero/libero/assets/stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.xml,chefmate8_frypan,50.247,500,995,499.959,compiled_collision_model,small empty frying pan
+cherries,libero/libero/assets/stable_hope_objects/cherries/cherries.xml,cherries,,,1000,,asset_xml_missing,asset absent; unverified density placeholder
+chocolate_pudding,libero/libero/assets/stable_hope_objects/chocolate_pudding/chocolate_pudding.xml,chocolate_pudding,10.186,80,785,79.961,compiled_collision_model,small pudding cup
+cookies,libero/libero/assets/stable_hope_objects/cookies/cookies.xml,cookies,9.643,50,519,50.045,compiled_collision_model,small cookie box
+corn,libero/libero/assets/stable_hope_objects/corn/corn.xml,corn,,,1000,,asset_xml_missing,asset absent; unverified density placeholder
+cream_cheese,libero/libero/assets/stable_hope_objects/cream_cheese/cream_cheese.xml,cream_cheese,6.194,70,1130,69.990,compiled_collision_model,small cream-cheese pack
+desk_caddy,libero/libero/assets/turbosquid_objects/desk_caddy/desk_caddy.xml,desk_caddy,277.963,500,180,500.334,compiled_collision_model,desktop organizer
+dining_set_group,libero/libero/assets/turbosquid_objects/dining_set_group/dining_set_group.xml,dining_set_group,15.544,250,1608,249.943,compiled_collision_model,small dish-and-utensil set
+glazed_rim_porcelain_ramekin,libero/libero/assets/stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml,glazed_rim_porcelain_ramekin,9.660,100,1035,99.976,compiled_collision_model,9 cm empty ceramic ramekin
+green_bbq_sauce,libero/libero/assets/stable_hope_objects/green_bbq_sauce/green_bbq_sauce.xml,bbq_sauce,12.180,100,821,100.000,compiled_collision_model,appearance/scale variant of bbq_sauce
+green_butter,libero/libero/assets/stable_hope_objects/green_butter/green_butter.xml,butter,5.247,50,953,50.006,compiled_collision_model,appearance/scale variant of butter
+green_chocolate_pudding,libero/libero/assets/stable_hope_objects/green_chocolate_pudding/green_chocolate_pudding.xml,chocolate_pudding,10.186,80,785,79.961,compiled_collision_model,appearance/scale variant of chocolate_pudding
+green_ketchup,libero/libero/assets/stable_hope_objects/green_ketchup/green_ketchup.xml,ketchup,23.217,150,646,149.981,compiled_collision_model,appearance/scale variant of ketchup
+ketchup,libero/libero/assets/stable_hope_objects/ketchup/ketchup.xml,ketchup,23.217,150,646,149.981,compiled_collision_model,small filled ketchup bottle
+libero_mug_green,notebooks/custom_assets/libero_mug_green/libero_mug_green.xml,,,,1000,,asset_xml_missing,asset XML absent; provisional density only
+libero_mug_yellow,notebooks/custom_assets/libero_mug_yellow/libero_mug_yellow.xml,,12.973,250,1849,250.049,compiled_collision_model,small ceramic mug
+macaroni_and_cheese,libero/libero/assets/stable_hope_objects/macaroni_and_cheese/macaroni_and_cheese.xml,macaroni_and_cheese,24.962,100,401,100.098,compiled_collision_model,small dry-food box
+mayo,libero/libero/assets/stable_hope_objects/mayo/mayo.xml,mayo,,,1000,,asset_xml_missing,asset absent; unverified density placeholder
+milk,libero/libero/assets/stable_hope_objects/milk/milk.xml,milk,31.666,350,1105,349.908,compiled_collision_model,small filled milk carton
+moka_pot,libero/libero/assets/turbosquid_objects/moka_pot/moka_pot.xml,moka_pot,68.243,350,513,350.086,compiled_collision_model,small empty moka pot
+new_salad_dressing,libero/libero/assets/stable_hope_objects/new_salad_dressing/new_salad_dressing.xml,new_salad_dressing,21.785,150,689,150.095,compiled_collision_model,small filled dressing bottle
+orange_juice,libero/libero/assets/stable_hope_objects/orange_juice/orange_juice.xml,orange_juice,31.666,350,1105,349.908,compiled_collision_model,small filled juice carton
+plate,libero/libero/assets/stable_scanned_objects/plate/plate.xml,plate,11.522,150,1302,150.018,compiled_collision_model,14 cm empty ceramic plate
+popcorn,libero/libero/assets/stable_hope_objects/popcorn/popcorn.xml,popcorn,5.208,20,384,19.999,compiled_collision_model,small dry popcorn pack
+porcelain_mug,libero/libero/assets/turbosquid_objects/porcelain_mug/porcelain_mug.xml,porcelain_mug,16.463,250,1519,250.073,compiled_collision_model,small ceramic mug
+rack,libero/libero/assets/stable_scanned_objects/simple_rack/simple_rack.xml,rack,142.064,400,282,400.621,compiled_collision_model,small metal rack
+red_akita_black_bowl,libero/libero/assets/stable_scanned_objects/red_akita_black_bowl/red_akita_black_bowl.xml,akita_black_bowl,5.591,120,2146,119.989,compiled_collision_model,appearance/scale variant of akita_black_bowl
+red_alphabet_soup,libero/libero/assets/stable_hope_objects/red_alphabet_soup/red_alphabet_soup.xml,alphabet_soup,25.851,200,774,200.090,compiled_collision_model,appearance/scale variant of alphabet_soup
+red_basket,libero/libero/assets/stable_scanned_objects/red_basket/red_basket.xml,basket,136.107,250,184,250.437,compiled_collision_model,appearance/scale variant of basket
+red_box,notebooks/custom_assets/red_box/red_box.xml,,,,1000,,asset_xml_missing,asset XML absent; provisional density only
+red_coffee_mug,libero/libero/assets/turbosquid_objects/red_coffee_mug/red_coffee_mug.xml,red_coffee_mug,29.353,250,852,250.089,compiled_collision_model,small ceramic mug
+red_cream_cheese,libero/libero/assets/stable_hope_objects/red_cream_cheese/red_cream_cheese.xml,cream_cheese,6.194,70,1130,69.990,compiled_collision_model,appearance/scale variant of cream_cheese
+red_orange_juice,libero/libero/assets/stable_hope_objects/red_orange_juice/red_orange_juice.xml,orange_juice,31.666,350,1105,349.908,compiled_collision_model,appearance/scale variant of orange_juice
+red_ramekin,libero/libero/assets/stable_scanned_objects/red_ramekin/red_ramekin.xml,glazed_rim_porcelain_ramekin,9.660,100,1035,99.976,compiled_collision_model,appearance/scale variant of glazed_rim_porcelain_ramekin
+red_salad_dressing,libero/libero/assets/stable_hope_objects/red_salad_dressing/red_salad_dressing.xml,salad_dressing,21.785,150,689,150.095,compiled_collision_model,appearance/scale variant of salad_dressing
+red_sticker,notebooks/custom_assets/red_sticker/red_sticker.xml,,,,1000,,asset_xml_missing,asset XML absent; provisional density only
+red_yellow_book,libero/libero/assets/turbosquid_objects/red_yellow_book/red_yellow_book.xml,yellow_book,28.125,150,533,149.906,compiled_collision_model,appearance/scale variant of yellow_book
+salad_dressing,libero/libero/assets/stable_hope_objects/salad_dressing/salad_dressing.xml,salad_dressing,21.785,150,689,150.095,compiled_collision_model,small filled dressing bottle
+tomato_sauce,libero/libero/assets/stable_hope_objects/tomato_sauce/tomato_sauce.xml,tomato_sauce,26.633,220,826,219.987,compiled_collision_model,small filled sauce can
+white_bottle,libero/libero/assets/turbosquid_objects/white_bottle/white_bottle.xml,wine_bottle,15.394,150,974,149.939,compiled_collision_model,appearance/scale variant of wine_bottle
+white_bowl,libero/libero/assets/stable_scanned_objects/white_bowl/white_bowl.xml,white_bowl,2.086,60,2877,60.009,compiled_collision_model,8 cm empty ceramic bowl
+white_porcelain_mug,libero/libero/assets/turbosquid_objects/white_porcelain_mug/white_porcelain_mug.xml,porcelain_mug,16.463,250,1519,250.073,compiled_collision_model,appearance/scale variant of porcelain_mug
+white_storage_box,libero/libero/assets/turbosquid_objects/white_storage_box/white_storage_box.xml,white_storage_box,76.862,150,195,149.880,compiled_collision_model,empty plastic storage box
+white_yellow_mug,libero/libero/assets/turbosquid_objects/white_yellow_mug/white_yellow_mug.xml,white_yellow_mug,30.912,300,971,300.153,compiled_collision_model,small ceramic mug
+wine_bottle,libero/libero/assets/turbosquid_objects/wine_bottle/wine_bottle.xml,wine_bottle,15.394,150,974,149.939,compiled_collision_model,small empty glass bottle
+wine_rack,libero/libero/assets/turbosquid_objects/wine_rack/wine_rack.xml,wine_rack,152.748,700,458,699.586,compiled_collision_model,small wooden wine rack
+wine_rack_stand,libero/libero/assets/turbosquid_objects/wine_rack_stand/wine_rack_stand.xml,,13.312,50,376,50.051,compiled_collision_model,small rack stand
+wooden_shelf,libero/libero/assets/turbosquid_objects/wooden_shelf/wooden_shelf.xml,wooden_shelf,183.571,500,272,499.313,compiled_collision_model,small wooden shelf
+wooden_tray,libero/libero/assets/turbosquid_objects/wooden_tray/wooden_tray.xml,wooden_tray,57.154,300,525,300.057,compiled_collision_model,small wooden serving tray
+wooden_two_layer_shelf,libero/libero/assets/turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf.xml,wooden_two_layer_shelf,206.332,800,388,800.567,compiled_collision_model,small two-tier wooden shelf
+yellow_book,libero/libero/assets/turbosquid_objects/yellow_book/yellow_book.xml,yellow_book,28.125,150,533,149.906,compiled_collision_model,small paperback book
+yellow_bowl,libero/libero/assets/stable_scanned_objects/yellow_bowl/yellow_bowl.xml,akita_black_bowl,5.591,120,2146,119.989,compiled_collision_model,appearance/scale variant of akita_black_bowl
+yellow_cookies,libero/libero/assets/stable_hope_objects/yellow_cookies/yellow_cookies.xml,cookies,9.643,50,519,50.045,compiled_collision_model,appearance/scale variant of cookies
+yellow_desk_caddy,libero/libero/assets/turbosquid_objects/yellow_desk_caddy/yellow_desk_caddy.xml,desk_caddy,277.963,500,180,500.334,compiled_collision_model,appearance/scale variant of desk_caddy
+yellow_milk,libero/libero/assets/stable_hope_objects/yellow_milk/yellow_milk.xml,milk,31.666,350,1105,349.908,compiled_collision_model,appearance/scale variant of milk
+yellow_moka_pot,libero/libero/assets/turbosquid_objects/yellow_moka_pot/yellow_moka_pot.xml,moka_pot,68.243,350,513,350.086,compiled_collision_model,appearance/scale variant of moka_pot
+yellow_plate,libero/libero/assets/stable_scanned_objects/yellow_plate/yellow_plate.xml,plate,11.522,150,1302,150.018,compiled_collision_model,appearance/scale variant of plate
+yellow_tomato_sauce,libero/libero/assets/stable_hope_objects/yellow_tomato_sauce/yellow_tomato_sauce.xml,tomato_sauce,26.633,220,826,219.987,compiled_collision_model,appearance/scale variant of tomato_sauce
