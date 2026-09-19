@@ -713,6 +713,8 @@ If you use LIBERO-PRO in your research, please cite both **LIBERO** and **LIBERO
 
 # License
 
+For controlled physics studies, see [optional per-object density overrides](docs/object_density_overrides.md).
+
 | Component        | License                                                                                                                             |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Codebase         | [MIT License](LICENSE)                                                                                                              |
