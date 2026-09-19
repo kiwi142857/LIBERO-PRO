@@ -431,6 +431,38 @@ class PerturbFlags:
     use_task: bool = False
 
 
+def resolve_output_suite_name(
+    task_suite_name: str,
+    flags: PerturbFlags,
+    perturbation_mapping: Dict[str, str],
+) -> str:
+    """Return the suite folder that the evaluator will load."""
+    enabled_flags = [
+        flag_name
+        for flag_name in (
+            "use_environment",
+            "use_swap",
+            "use_object",
+            "use_language",
+            "use_task",
+        )
+        if getattr(flags, flag_name)
+    ]
+
+    if not enabled_flags:
+        return f"{task_suite_name}_temp"
+    if len(enabled_flags) > 1:
+        return f"{task_suite_name}_temp"
+
+    flag_name = enabled_flags[0]
+    suffix = (perturbation_mapping or {}).get(flag_name)
+    if not suffix:
+        raise ValueError(
+            f"Missing perturbation_mapping entry for enabled flag '{flag_name}'"
+        )
+    return f"{task_suite_name}_{suffix}"
+
+
 class BDDLCombinedPerturbator:
     """
     组合扰动器：
@@ -583,9 +615,10 @@ def process_bddl_file_mixed(input_dir: str,
                             task_suite_name: str,
                             flags: PerturbFlags,
                             configs: Dict[str, str],
-                            seed: Optional[int] = None) -> None:
+                            seed: Optional[int] = None,
+                            output_suite_name: Optional[str] = None) -> str:
     """
-        对指定目录下的 BDDL 文件进行扰动，并保存到临时目录。
+        对指定目录下的 BDDL 文件进行扰动，并保存到评测任务集目录。
 
         Args:
             input_dir (str): 输入 BDDL 文件所在的目录。
@@ -593,9 +626,12 @@ def process_bddl_file_mixed(input_dir: str,
             task_suite_name (str): 任务集名称。
             flags (dict): 扰动参数标志。
             seed (int): 随机种子。
+            output_suite_name (str): 输出 BDDL / init state 共用的任务集目录名。
         """
     input_path = Path(input_dir)
-    output_dir = input_path.parent / f"{input_path.name}_temp"
+    output_dir = input_path.parent / (
+        output_suite_name or f"{input_path.name}_temp"
+    )
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for file_path in input_path.glob("*.bddl"):
@@ -648,25 +684,32 @@ def create_env(
     )
 
     ood_task_configs = configs.get("ood_task_configs", {})
+    task_suite_name = configs.get("task_suite_name", "")
+    output_suite_name = resolve_output_suite_name(
+        task_suite_name=task_suite_name,
+        flags=flags,
+        perturbation_mapping=configs.get("perturbation_mapping", {}),
+    )
 
-    # 生成临时的 bddl 输出路径
-    temp_output_dir = process_bddl_file_mixed(
+    # BDDL and init states must share the suite folder used by evaluation.
+    output_dir = process_bddl_file_mixed(
         input_dir=configs.get("bddl_files_path", ""),
-        task_suite_name=configs.get("task_suite_name", ""),
+        task_suite_name=task_suite_name,
         flags=flags,
         configs=ood_task_configs,
+        output_suite_name=output_suite_name,
         seed=configs.get("seed", int),
     )
 
     # 调用 EvalEnvCreator
     creator = EvalEnvCreator(
-        input_dir=temp_output_dir,
+        input_dir=output_dir,
         script_path=configs.get("script_path", ""),
         base_output_dir=configs.get("init_file_dir", ""),
     )
     creator.create_env()
 
-    return
+    return output_suite_name
 
 
 
